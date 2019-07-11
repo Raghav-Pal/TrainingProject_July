@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestForDataDriven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75ab81f3-6963-46d7-aa98-9224c2f773c1</testCaseGuid>
+   <variable>
+      <defaultValue>[:]</defaultValue>
+      <description></description>
+      <id>a6fa0248-992d-43c3-a530-273d759eafb1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PASSWORD</defaultValue>
+      <description></description>
+      <id>96ce144e-b95a-4eb1-b3d9-f02a88e7aecd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
