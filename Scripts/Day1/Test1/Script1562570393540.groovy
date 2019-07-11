@@ -25,8 +25,8 @@ WebUI.setEncryptedText(findTestObject('WEB/Page_CURA Healthcare Service/input_Pa
 
 WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.selectOptionByValue(findTestObject('WEB/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center'), 
-    'Hongkong CURA Healthcare Center', true)
+WebUI.selectOptionByValue(findTestObject('WEB/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center'), 'Hongkong CURA Healthcare Center', 
+    true)
 
 WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission'))
 
@@ -43,6 +43,8 @@ WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/a_Go to Homepage'))
 WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/a_Make Appointment_1'))
 
 WebUI.click(findTestObject('WEB/Page_CURA Healthcare Service/a_Make Appointment_2'))
+
+WebUI.delay(0)
 
 WebUI.closeBrowser()
 
