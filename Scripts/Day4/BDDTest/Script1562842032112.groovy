@@ -13,5 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Day3/TestForDataDriven'), [('username') : username, ('password') : password], FailureHandling.STOP_ON_FAILURE)
+CucumberKW.runFeatureFile('Include/features/Login.feature')
+
+CucumberKW.runFeatureFolder('Include/features')
 
